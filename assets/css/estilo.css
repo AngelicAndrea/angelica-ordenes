@@ -1,0 +1,179 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+nav{
+    
+}
+nav ul a{
+   padding: 0 20px; 
+   font-weight: 400;
+   text-transform: uppercase;
+   color: #3739fb;
+}
+.sidenav li>a{
+    color: #3739fb;
+}
+.menu{
+    background-color: #3739fb;
+    background-position: center;
+    background-size: cover;
+    height: 47vw;
+}
+.color-menu{
+    color: #3739fb;
+}
+.img-icon{
+    width: 15em;
+    display:block;
+    margin:auto;
+    margin-top: 6%
+}
+.title{
+    color: #50e3c2;
+    font-weight:700;
+    font-size: 3em;
+    text-transform: uppercase; 
+    display: inline-block;
+}
+.title-2{
+    color: #50e3c2;
+    font-weight: 300;
+    font-size: 3em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 1%;
+}
+.title-3{
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.title-4{
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+.title-4 a{
+    color: #ffff;
+    text-decoration: underline;
+}
+.title-movil{
+    font-weight:700;
+    color: #50e3c2;
+    text-transform: uppercase; 
+    font-size: 4em;
+    margin: 10% 0 0 0;
+}
+.title-movil-2{
+    font-weight:300;
+    color: #50e3c2;
+    text-transform: uppercase; 
+    font-size: 2.3em;
+    margin-top: 2%;
+}
+.title-movil-3{
+    font-weight:300;
+    text-transform: uppercase; 
+    font-size: 1.1em;
+    margin-top: 0;
+}
+.title-movil-4{
+    margin-top: 35%;
+}
+.title-movil-4 a{
+    color: #ffff;
+    text-decoration: underline;
+}
+.menu-movil{
+    background-color: #3739fb;
+    background-position: center;
+    background-size: cover;
+    height: 171vw;
+}
+.text{
+    text-align: justify;
+    font-weight: 400;
+    color:#2e3c40;
+}
+.title-mi{
+    font-size: 500%;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10%;
+    color: #ff5c5c;
+}
+.title-menu{
+    margin-top: 15%;
+    font-weight: 300;
+    color: #50e3c2;
+    text-transform: uppercase;
+}
+.fondo{
+    background-color: #ff5c5c;
+    height: 48vw;
+    width: 50%;
+}
+#btn-cv{
+   margin-top: 5%;
+   width: 15em;
+   background-color:#50e3c2;
+}
+#btn-cv:hover{
+    background-color: #3739fb;
+}
+.img-icon2{
+    width: 10%;
+    display: block;
+    margin: auto;
+    margin-top: 35%;
+}
+.text-inicial{
+    font-weight: 700;
+}
+.icons{
+    display: block;
+    font-size: 3em;
+    margin-top: 15%;
+    
+}
+.icons a{
+    color: #ffff;
+    padding: 0 5%;
+}
+.icons a:hover{
+    color: #50e3c2;
+}
+.fondo-movil-2{
+    background-color: #ff5c5c;
+}
+/* Sobre mi movil */
+.img-icon3{
+    width: 4em;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+}
+#btn-movil-cv{
+    margin-top: 10%;
+    width: 15em;
+    background-color:#50e3c2;
+}  
+#btn-movil-cv:hover{
+    background-color: #3739fb;
+}
+.icons-2 a{
+    color: #ffff;
+    padding: 0 5%;
+    font-size: 3em;
+}
+.icons-2 a:hover{
+    color: #50e3c2;
+}
+.icons-2{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+/* Portafolio */
+.img-portafolio{
+    width: 25em;
+}
