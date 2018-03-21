@@ -1,9 +1,6 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
-nav{
-    
-}
 nav ul a{
    padding: 0 20px; 
    font-weight: 400;
@@ -176,4 +173,22 @@ nav ul a{
 /* Portafolio */
 .img-portafolio{
     width: 25em;
+}
+.title-portafolio{
+    font-size: 500%;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3739fb;
+}
+.title-portafolio2{
+    font-size: 400%;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3739fb;
+}
+.title-menu2{
+    margin-top: 6%;
+    font-weight: 300;
+    color: #50e3c2;
+    text-transform: uppercase;
 }

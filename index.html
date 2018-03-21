@@ -21,8 +21,8 @@
                         <a href="#" data-target="mobile-demo" class="sidenav-trigger rigth">
                             <i class="material-icons color-menu">menu</i>
                         </a>
-                        <ul class="hide-on-med-and-down">
-                            <li><a href="#">Home</a></li>
+                        <ul id="navlinks" class="hide-on-med-and-down">
+                            <li><a href="#home">Home</a></li>
                             <li><a href="#sobre-mi">Acerca de</a></li>
                             <li><a href="#portafolio">Portafolio</a></li>
                             <li><a href="#">Contacto</a></li>
@@ -40,7 +40,7 @@
         
     </section>
     <!-- versión ordenador -->
-    <section class="menu hide-on-small-only">
+    <section id="home" class="menu hide-on-small-only">
         <div class="row">
             <div class="col s12 xl12 center-align">
                 <img class="img-icon" src="assets/imagenes/icono-01.png" alt="">
@@ -116,23 +116,107 @@
         <div class="row">
             <div class="col s12 offset-xl1 xl11">
                 <p class="title-menu2">Angélica Órdenes | Portafolio</p>
-                <h2 class="title-portafolio">Portafolio</h2>
+                <h2 class="title-portafolio hide-on-small-only">Portafolio</h2>
+                <h3 class="title-portafolio2 show-on-small hide-on-large-only center-align">Portafolio</h3>
             </div>
         </div>
-        <div class="row">
-            <div class="col s12 xl12 center-align">
-                <img class="img-portafolio responsive-img" src="assets/imagenes/prueba.jpg" alt="">
-                <img class="img-portafolio responsive-img" src="assets/imagenes/prueba.jpg" alt="">
-                <img class="img-portafolio responsive-img" src="assets/imagenes/prueba.jpg" alt="">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 xl12 center-align">
-                <img class="img-portafolio responsive-img" src="assets/imagenes/prueba.jpg" alt="">
-                <img class="img-portafolio responsive-img" src="assets/imagenes/prueba.jpg" alt="">
-                <img class="img-portafolio responsive-img" src="assets/imagenes/prueba.jpg" alt="">
-            </div>
-        </div>
+        <div class="row container">
+            <div class="col s12 xl4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator responsive-img" src="prueba.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Fundación Stuka<i class="material-icons right">more_vert</i></span>
+                      <p><a href="#">Ver más</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Fundación Stuka<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>        
+            <div class="col s12 xl4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator responsive-img" src="prueba.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Banca Millennial<i class="material-icons right">more_vert</i></span>
+                      <p><a href="#">Ver más</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Banca Millennial<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>   
+            <div class="col s12 xl4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator responsive-img" src="prueba.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Buses<i class="material-icons right">more_vert</i></span>
+                      <p><a href="#">Ver más</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Buses<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+        <div class="row container">
+            <div class="col s12 xl4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator responsive-img" src="prueba.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Dashboard<i class="material-icons right">more_vert</i></span>
+                      <p><a href="#">Code</a></p>
+                      <p><a href="#">Demo</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>        
+            <div class="col s12 xl4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator responsive-img" src="prueba.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Food Map<i class="material-icons right">more_vert</i></span>
+                      <p><a href="#">Code</a></p>
+                      <p><a href="#">Demo</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>   
+            <div class="col s12 xl4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator responsive-img" src="prueba.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Red Social<i class="material-icons right">more_vert</i></span>
+                      <p><a href="#">Code</a></p>
+                      <p><a href="#">Demo</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div> 
+        </div> 
      </section>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
