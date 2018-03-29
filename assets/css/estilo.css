@@ -102,7 +102,7 @@ nav ul a{
 .title-menu{
     margin-top: 15%;
     font-weight: 300;
-    color: #50e3c2;
+    color: #3739fb;
     text-transform: uppercase;
 }
 .fondo{
@@ -189,7 +189,7 @@ nav ul a{
 .title-menu2{
     margin-top: 6%;
     font-weight: 300;
-    color: #50e3c2;
+    color: #3739fb;
     text-transform: uppercase;
 }
 /* Corazón */
@@ -198,8 +198,8 @@ nav ul a{
 .heart {
   margin: 0 auto;
   background: url('https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png');
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   background-size: 2900%;
   background-repeat: no-repeat;
   &:hover {
@@ -267,4 +267,34 @@ nav ul a{
 
 .click-heart {
   cursor: pointer;
+}
+/* Contacto */
+#contacto{
+    background-color: #ff5c5c;
+}
+.title-contacto{
+    margin-left: 10%;
+    color: #50e3c2;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.contenedor{
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.text-contact{
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 0;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+.texto-final{
+    margin: 0;
+}
+.text-1{
+    color: #50e3c2;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 0;
 }
