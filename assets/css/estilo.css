@@ -98,7 +98,7 @@ nav ul a{
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 10%;
-    color: #ff5c5c;
+    color: #3739fb;
 }
 .title-menu{
     margin-top: 15%;
@@ -107,9 +107,9 @@ nav ul a{
     text-transform: uppercase;
 }
 .fondo{
-    background-color: #ff5c5c;
+    background-color: #3739fb;
     height: 48vw;
-    width: 50%;
+    
 }
 #btn-cv{
    margin-top: 5%;
@@ -142,7 +142,7 @@ nav ul a{
     color: #50e3c2;
 }
 .fondo-movil-2{
-    background-color: #ff5c5c;
+    background-color: #3739fb;
 }
 /* Sobre mi movil */
 .img-icon3{
@@ -271,7 +271,7 @@ nav ul a{
 }
 /* Contacto */
 #contacto{
-    background-color: #ff5c5c;
+    background-color: #3739fb;
 }
 .title-contacto{
     margin-left: 10%;
@@ -298,4 +298,16 @@ nav ul a{
     font-weight: 700;
     font-size: 1.5em;
     margin: 0;
+}
+/* tarjetas */
+.card-title{
+    color: #2e3c40;
+}
+.text-portafolio a{
+    color:#3739fb;
+    font-weight: 700;
+}
+.text-por{
+    color: #2e3c40;
+    text-align: justify;
 }
