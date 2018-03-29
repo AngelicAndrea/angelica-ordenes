@@ -75,7 +75,7 @@ nav ul a{
     margin-top: 0;
 }
 .title-movil-4{
-    margin-top: 35%;
+    margin-top: 10%;
 }
 .title-movil-4 a{
     color: #ffff;
@@ -85,7 +85,8 @@ nav ul a{
     background-color: #3739fb;
     background-position: center;
     background-size: cover;
-    height: 171vw;
+    padding-top: 10%;
+    height: 100%;
 }
 .text{
     text-align: justify;
